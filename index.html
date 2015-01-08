@@ -7,6 +7,15 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>
         <title>hiOut app official page</title>
+        
+        <!-- Meta-Mobile -->
+		<meta name="viewport" content="user-scalable=no,initial-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-status-barstyle" content= "black-translucent">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-barstyle" content= "black-translucent">
+	<!-- END Meta-Mobile -->
+
     </head>
     
     <body>    
@@ -50,10 +59,10 @@
         	<div class="head">
             	<nav class="menu">              
                    <ul class="menu">
-                    	<li><a href="index.html">Accueil</a></li>
-                        <li><a class="scrollTo" href="#application">L'application</a></li>
-                        <li><a class="scrollTo" href="#apropos">A propos</a></li>
-                        <li><a class="scrollTo" href="#contact">Contact</a></li>
+                    	<li><a href="index.html">HOME</a></li>
+                        <li><a class="scrollTo" href="#application">THE APP</a></li>
+                        <li><a class="scrollTo" href="#fonction">ABOUT</a></li>
+                        <li><a class="scrollTo" href="#network">Contact US</a></li>
                     </ul>
                 </nav>
                 <div class="titre">
@@ -72,15 +81,111 @@
                        <p> HiOut is the easiest way to find a party in few seconds without losing time. Because “time is money”.</p>
                     </div>
                 </div>
+                
                 <div class="design">
                 	<div class="designtexte">
                         <h2>Simplicity of design</h2>
                         <p>With carefully thought-out design, hiOut makes it easy for you to keep control.</p>
                     </div>
                     <div class="designpic">
+                    	<div class="plus"><img id="plus" src="_images/plus.PNG"></div>
+                        <div class="epingle"><img id="epingle" src="_images/epingle.png"></div>
+                        <div class="setting"><img id="setting" src="_images/setting.PNG"></div>
+                    </div>
+                </div>
                 
+                <div class="easy">
+                	<div id="easypic">
+                    	<div id="slider-k">
+                        	<div class="frame-k">
+                    			<img id="easypic1" src="_images/easy.PNG">
+                        	</div>
+                        </div>
                     </div>
+                    <div class="easytexte">
+                    	<h2>Easy choice</h2>
+                        <p>Easily swipe between different parties and instantly choose smoothly yours.</p>
                     </div>
+                    
+                    <div class="location">
+                    	<div class="locationtexte">
+                            <h2>Find location</h2>
+                            <p>Feel free to define your location and request your itinerary.</p>
+                        </div>
+                    	<div class="locationpic">
+                    		<img id="map" src="_images/map.PNG">
+                   		</div>
+                    </div>
+                    
+                    <div id="fonction" class="fonction">
+                     <article id=slider>                            
+                                <!-- Slider Setup -->                            
+                                <input checked type=radio name=slider id=slide1 />
+                                <input type=radio name=slider id=slide2 />
+                                <input type=radio name=slider id=slide3 />                           
+                                <!-- The Slider -->                                
+                                <div id=slides>                                
+                                    <div id=overflow>                                    
+                                        <div class=inner>                                        
+                                            <article>
+                                   				<img id="mark" src="_images/iphone.png">
+                                                <div class="marktexte">
+                                                	<h2>Un/Mark & compare</h2>
+                                                    <P>Be determined by marking divers party and comparing them to find witch one sweet you.</P>
+                                                </div>
+                                            </article>                                            
+                                            <article>
+                                                <img id="filter" src="_images/iphone.png">
+                                                <div class="filtertexte">
+                                                	<h2>Use a filter</h2>
+                                                    <P>Customize your research process by using a simple filter or a complex filter.</P>
+                                                </div>
+                                            </article>                                            
+                                            <article>
+                                                <img id="share" src="_images/iphone.png">
+                                                <div class="sharetexte">
+                                                	<h2>Share your experience</h2>
+                                                    <P>Share your experience on social networks; maybe friends will join you later. How knows?</P>
+                                                </div>
+                                            </article>                                        
+                                        </div> <!-- .inner -->                                        
+                                    </div> <!-- #overflow -->                                
+                                </div> <!-- #slides -->                            
+                                <!-- Controls and Active Slide Display -->                            
+                                <div id=controls>                        
+                                    <label for=slide1></label>
+                                    <label for=slide2></label>
+                                    <label for=slide3></label>
+                                </div> <!-- #controls -->                                
+                                <div id=active>                        
+                                    <label for=slide1></label>
+                                    <label for=slide2></label>
+                                    <label for=slide3></label>                                       
+                                </div> <!-- #active -->                            
+                            </article> <!-- #slider -->
+                    </div>
+                    
+                    <footer>
+                    	<div id="network" class="network">
+                        	<div class="mail">
+                            	<img src="_images/mail.png">
+                            </div>
+                            <div class="facebook">
+                            	<img src="_images/facebook.png">
+                            </div>
+                            <div class="twitter">
+                            	<img src="_images/twitter.png">
+                            </div>
+                        </div>
+                        <div class="signature">
+                        	<div class="credit">
+                            	<p>Email us at info@highOut.be</p>
+                                <p>We dont save any of your data</p>
+                                <p>© 2015 HighOut. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
             </section>
             
         </div>
